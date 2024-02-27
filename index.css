@@ -1,0 +1,64 @@
+body{
+    background:radial-gradient(blue,white);
+}
+#shadow{
+    color: azure;
+    text-shadow:2px 2px 4px #000000;
+}
+#dec{
+    color: green;
+    font-size: 45px;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+}
+div {
+    font-size: 35px;
+    font-weight: 900;
+    position: relative;
+    animation-name: example;
+    animation-duration: 25s;
+    text-shadow: 2px 2px 4px;
+  }
+  
+  @keyframes example {
+    0%   {color:rgb(144, 123, 227); left:0px; top:0px;}
+    25%  {color:rgb(40, 125, 61); left:60%; top:0px;}
+    50%  {color:blue; left:60%; top:5%}
+    75%  {color:rgb(203, 63, 159); left:0px; top:5%;}
+    100% {color:rgb(146, 188, 39); left:0px; top:0px;}
+  }
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+img{
+    width: 60%;
+}
+#heading{
+    text-decoration: underline; 
+    font-weight: 600;
+}
+h3{
+    font-family: Protest Revolution; 
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+table, td {
+    overflow-x: auto;
+    font-size: 25px;
+    margin: auto;
+    border: 2px dotted;
+    padding: 15px;
+  }
+.image{
+    display: block; 
+    overflow: auto; 
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: 4px dotted white;
+    box-shadow: 10px 10px;
+    border-radius: 8px;
+}
